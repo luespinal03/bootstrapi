@@ -39,5 +39,4 @@ form.addEventListener('submit', (event) => {
         }).then((data) => {
              displayArea.innerText = `${data.description}, ${data.temperature}, ${data.wind}`
         })
- 
 })
